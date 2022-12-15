@@ -8,7 +8,6 @@ body {
     background-color: #d9dcd6;
 }
 
-/* replaced .header */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,19 +15,16 @@ header {
     color: #ffffff;
 } 
 
-/* replaced .header h1 */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-/* replaced .header h1 .seo */
 mark {
     background-color: transparent;
     color: #d9dcd6;
 }
 
-/* replaced .header div */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -37,12 +33,10 @@ nav {
     font-size: 20px;
 } 
 
-/* replaced .header div ul */
 ul {
     list-style-type: none;
 }
 
-/* replaced .header div ul li */
 ul, li {
     display: inline-block;
     margin-left: 25px;
