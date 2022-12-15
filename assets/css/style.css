@@ -51,27 +51,32 @@ p {
     font-size: 16px;
 }
 
-/* .hero {
+.hero {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
-} */
-
-figure {
-    margin-bottom: 25px;
 }
 
+/* replaced by main img
 .float-left {
     float: left;
     margin-right: 25px;
-}
+    max-height: 200px;
+} */
 
 .float-right {
     float: right;
     margin-left: 25px;
+    max-height: 200px;
+}
+
+main img {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
 }
 
 /* replaced .content */
@@ -81,7 +86,8 @@ main {
     margin-left: 20px;
 }
 
-.benefits {
+/* replaced .benefits { */
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -90,8 +96,9 @@ main {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
+} 
 
+/* replaced by section
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -105,8 +112,15 @@ main {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+} */
+
+section {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
+
+/* replaced by h3
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -120,8 +134,14 @@ main {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+} */
+
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
+/* replaced by section img
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -138,8 +158,15 @@ main {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+} */
+
+section img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
 
+/* replaced by article
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -147,7 +174,8 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+} 
+
 
 .online-reputation-management {
     margin-bottom: 20px;
@@ -165,11 +193,21 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+} */
+
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
+/* replaced by .float-left .float-right
 .search-engine-optimization img {
     max-height: 200px;
-}
+} 
 
 .online-reputation-management img {
     max-height: 200px;
@@ -177,8 +215,9 @@ main {
 
 .social-media-marketing img {
     max-height: 200px;
-}
+}*/
 
+/* replaced by h2
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -192,15 +231,22 @@ main {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+} */
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
-.footer {
+/* replaced .footer */
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+/* replaced .footer h2 */
+footer h2 {
     font-size: 20px;
 }
